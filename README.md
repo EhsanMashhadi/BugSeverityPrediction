@@ -54,3 +54,6 @@ These files should be copied to the `dataset` folder that is used by the model t
 1. Check the `CUDA` and `PyTorch` compatibility
 2. Assign the correct values for `CUDA_VISIBLE_DEVICES`, `gpu_rank`, and `world_size` based on your GPU numbers in all scripts.
 3. Run on CPU by removing the `gpu_rank`, and `world_size` options in all scripts.
+
+### Dataset Collection
+Dataset collection scripts are provided in the `ESBS` folder. This folder contains Python and Java code that fetch severity labels, extract buggy methods, and calculate source code metrics.
