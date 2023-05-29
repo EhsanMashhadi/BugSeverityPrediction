@@ -1,4 +1,4 @@
-# SANER2023-BugSeverityPrediction
+# BugSeverityPrediction
 
 ### Paper
 You can find the paper here: TBC
@@ -12,7 +12,7 @@ These files should be copied to the `dataset` folder that is used by the model t
 
 ### Prerequisite
 1. Clone the repository
-   - `git clone git@github.com:EhsanMashhadi/Saner2023-BugSeverityPrediction.git` 
+   - `git clone git@github.com:EhsanMashhadi/BugSeverityPrediction.git` 
 2. Install dependencies (You may need to change the torch version for running on your GPU/CPU)
    - `pip install pandas==1.4.2`
    - `pip install transformers==4.18.0`
