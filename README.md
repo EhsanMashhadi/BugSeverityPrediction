@@ -21,6 +21,7 @@ These files should be copied to the `dataset` folder that is used by the model t
    - `git clone git@github.com:EhsanMashhadi/BugSeverityPrediction.git` 
 2. Install dependencies (You may need to change the torch version for running on your GPU/CPU)
    - Install [Defects4J](https://github.com/rjust/defects4j) (Follow all the steps in the provided installation guide)
+   - Install [Bugs.jar](https://github.com/bugs-dot-jar/bugs-dot-jar) (You must install this in the `data_gathering` directory)
    - `pip install pandas==1.4.2`
    - `pip install jira`
    - `pip install beautifulsoup4`
