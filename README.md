@@ -2,6 +2,12 @@
 
 ### Paper
 You can find the paper here: TBC
+
+### Artifact Description
+This artifact contains all data, code, and scripts required to run the paper's experiment to reproduce the results. The structure of folders and files are:
+ESBS 
+
+
 ### Data
 
 The `data` folder contains bugs from Defects4tJ and Bugs.jar datasets. This folder contains a preprocessing script that unify bug severity values, scale the source code metrics and create `train`, `val`, and `test` splits.
@@ -14,7 +20,11 @@ These files should be copied to the `dataset` folder that is used by the model t
 1. Clone the repository
    - `git clone git@github.com:EhsanMashhadi/BugSeverityPrediction.git` 
 2. Install dependencies (You may need to change the torch version for running on your GPU/CPU)
+   - Install [Defects4J](https://github.com/rjust/defects4j) (Follow all the steps in the provided installation guide)
    - `pip install pandas==1.4.2`
+   - `pip install jira`
+   - `pip install beautifulsoup4`
+   - `pip3 install lxml`
    - `pip install transformers==4.18.0`
    - `pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 -f https://download.pytorch.org/whl/torch_stable.html`
    - `pip install scikit-learn==1.1.1`
