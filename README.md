@@ -20,6 +20,8 @@ These files should be copied to the `dataset` folder that is used by the model t
 1. Clone the repository
    - `git clone git@github.com:EhsanMashhadi/BugSeverityPrediction.git` 
 2. Install dependencies (You may need to change the torch version for running on your GPU/CPU)
+   - Install Git
+   - Install SVN
    - Install [Defects4J](https://github.com/rjust/defects4j) (Follow all the steps in the provided installation guide)
    - Install [Bugs.jar](https://github.com/bugs-dot-jar/bugs-dot-jar) (You must install this in the `data_gathering` directory)
    - `pip install pandas==1.4.2`
@@ -31,9 +33,9 @@ These files should be copied to the `dataset` folder that is used by the model t
    - `pip install scikit-learn==1.1.1`
    - `pip install xgboost==1.6.1`
    - `pip install seaborn==0.11.2`
-3. Adding the project root folder to the `PYTHONPATH`
+4. Adding the project root folder to the `PYTHONPATH`
    - `export PYTHONPATH=$PYTHONPATH:/rootpath/you/clone/the/project`
-4. Running data preprocessing (You can skip this step and use the available files in the dataset folder to replicate paper's results)
+5. Running data preprocessing (You can skip this step and use the available files in the dataset folder to replicate paper's results)
    - `cd BugSeverityPrediction/data`
    - `bash preprocessing.sh`
    - Copy generated `jsonl` and `csv` files into the dataset folder
